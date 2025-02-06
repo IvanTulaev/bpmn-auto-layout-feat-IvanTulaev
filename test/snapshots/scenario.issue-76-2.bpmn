@@ -90,7 +90,7 @@
         <dc:Bounds x="500" y="45" width="50" height="50" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_1p2nm57_di" bpmnElement="Event_1p2nm57">
-        <dc:Bounds x="807" y="52" width="36" height="36" />
+        <dc:Bounds x="657" y="52" width="36" height="36" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Gateway_191fhk7_di" bpmnElement="Gateway_191fhk7" isMarkerVisible="true">
         <dc:Bounds x="950" y="45" width="50" height="50" />
@@ -143,10 +143,10 @@
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_1rf620l_di" bpmnElement="Flow_1rf620l">
         <di:waypoint x="550" y="70" />
-        <di:waypoint x="807" y="70" />
+        <di:waypoint x="657" y="70" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_1kl7jb6_di" bpmnElement="Flow_1kl7jb6">
-        <di:waypoint x="843" y="70" />
+        <di:waypoint x="693" y="70" />
         <di:waypoint x="950" y="70" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_1g5244t_di" bpmnElement="Flow_1g5244t">

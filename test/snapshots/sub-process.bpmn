@@ -126,6 +126,20 @@
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_Activity_1arffcs">
+    <bpmndi:BPMNPlane id="BPMNPlane_Activity_1arffcs" bpmnElement="Activity_1arffcs">
+      <bpmndi:BPMNShape id="Event_03gw0g6_di" bpmnElement="Event_03gw0g6">
+        <dc:Bounds x="57" y="52" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1rv3mcn_di" bpmnElement="Activity_1rv3mcn">
+        <dc:Bounds x="175" y="30" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_1snl3y9_di" bpmnElement="Flow_1snl3y9">
+        <di:waypoint x="93" y="70" />
+        <di:waypoint x="175" y="70" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
   <bpmndi:BPMNDiagram id="BPMNDiagram_Task_01g18mq">
     <bpmndi:BPMNPlane id="BPMNPlane_Task_01g18mq" bpmnElement="Task_01g18mq">
       <bpmndi:BPMNShape id="StartEvent_1y5wa2h_di" bpmnElement="StartEvent_1y5wa2h">
@@ -152,19 +166,5 @@
   </bpmndi:BPMNDiagram>
   <bpmndi:BPMNDiagram id="BPMNDiagram_Task_0ld66b4">
     <bpmndi:BPMNPlane id="BPMNPlane_Task_0ld66b4" bpmnElement="Task_0ld66b4" />
-  </bpmndi:BPMNDiagram>
-  <bpmndi:BPMNDiagram id="BPMNDiagram_Activity_1arffcs">
-    <bpmndi:BPMNPlane id="BPMNPlane_Activity_1arffcs" bpmnElement="Activity_1arffcs">
-      <bpmndi:BPMNShape id="Event_03gw0g6_di" bpmnElement="Event_03gw0g6">
-        <dc:Bounds x="57" y="52" width="36" height="36" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_1rv3mcn_di" bpmnElement="Activity_1rv3mcn">
-        <dc:Bounds x="175" y="30" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNEdge id="Flow_1snl3y9_di" bpmnElement="Flow_1snl3y9">
-        <di:waypoint x="93" y="70" />
-        <di:waypoint x="175" y="70" />
-      </bpmndi:BPMNEdge>
-    </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
 </bpmn:definitions>
