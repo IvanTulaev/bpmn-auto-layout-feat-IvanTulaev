@@ -52,9 +52,8 @@
       <bpmndi:BPMNEdge id="SequenceFlow_0dimcke_di" bpmnElement="SequenceFlow_0dimcke">
         <di:waypoint x="225" y="128" />
         <di:waypoint x="225" y="140" />
-        <di:waypoint x="300" y="140" />
-        <di:waypoint x="300" y="70" />
-        <di:waypoint x="350" y="70" />
+        <di:waypoint x="375" y="140" />
+        <di:waypoint x="375" y="95" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_0g6u7lj_di" bpmnElement="Flow_0g6u7lj">
         <di:waypoint x="400" y="70" />
