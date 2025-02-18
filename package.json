@@ -16,6 +16,7 @@
     "all": "run-s lint test",
     "lint": "eslint .",
     "test": "mocha",
+    "test-duration": "mocha --slow 0",
     "test:inspect": "open test/output/index.html",
     "test:update-snapshots": "cross-env UPDATE_SNAPSHOTS=true mocha",
     "pretest": "run-s build",
