@@ -1,6 +1,6 @@
 {
   "name": "bpmn-auto-layout",
-  "version": "1.0.0",
+  "version": "3.0.0-beta.2",
   "description": "Layout BPMN diagrams, generating missing DI information",
   "type": "module",
   "exports": {
@@ -16,7 +16,6 @@
     "all": "run-s lint test",
     "lint": "eslint .",
     "test": "mocha",
-    "test-duration": "mocha --slow 0",
     "test:inspect": "open test/output/index.html",
     "test:update-snapshots": "cross-env UPDATE_SNAPSHOTS=true mocha",
     "pretest": "run-s build",
@@ -27,21 +26,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bpmn-io/bpmn-auto-layout.git"
+    "url": "git+https://github.com/IvanTulaev/bpmn-auto-layout-feat-IvanTulaev.git"
   },
   "keywords": [
     "bpmn",
     "layout"
   ],
   "author": {
-    "name": "bpmn.io contributors",
-    "url": "https://github.com/bpmn-io"
+    "name": "IvanTulaev & bpmn.io contributors",
+    "url": "https://boosty.to/tulaev"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bpmn-io/bpmn-auto-layout/issues"
+    "url": "https://github.com/IvanTulaev/bpmn-auto-layout-feat-IvanTulaev/issues"
   },
-  "homepage": "https://github.com/bpmn-io/bpmn-auto-layout#readme",
+  "homepage": "https://github.com/IvanTulaev/bpmn-auto-layout-feat-IvanTulaev#readme",
   "dependencies": {
     "bpmn-moddle": "^9.0.1",
     "min-dash": "^4.1.1"
