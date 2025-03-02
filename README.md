@@ -39,7 +39,7 @@ console.log(diagramWithLayoutXML);
 
 
 
-## Run example (for BAs and SAs and other business people :) )
+## Run example (for BAs, SAs and other business people :) )
 1. Run in terminal commands below 
     ```sh
     git clone https://github.com/IvanTulaev/bpmn-auto-layout-feat-IvanTulaev.git
@@ -48,7 +48,7 @@ console.log(diagramWithLayoutXML);
     npm start
     ```
 2. Browser will open tab at http://localhost:8080 or on another port if 8080 is busy.
-3. Upload your BPMN to the left side (**Left-bottom button "Open" **).
+3. Upload your BPMN to the left side (**Left-bottom button "Open"**).
 4. Take the placed BPMN from the right side (**Right-bottom button "Download"**).
 
 ## Build and Run
