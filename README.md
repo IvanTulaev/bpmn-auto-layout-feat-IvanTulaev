@@ -4,6 +4,12 @@
 
 Create and layout the graphical representation of a BPMN diagram.
 
+## Differences with original repository
+
+* Given a collaboration **ALL** participant's process will be laid out.
+* Independent graphs of process are laid out on different grid lines.
+* Happy path not very happy, but large process graphs are more understandable for humans :)
+
 ## Usage
 
 This library works with [Node.js](https://nodejs.org/) and in the browser.
@@ -20,17 +26,30 @@ console.log(diagramWithLayoutXML);
 
 ## Limitations
 
-* Given a collaboration only the first participant's process will be laid out
 * Sub-processes will be laid out as collapsed sub-processes
 * The following elements are not laid out:
   * Groups
   * Text annotations
   * Associations
-  * Message flows
+  * Message flows laid out with main elements crosses 
 
 ## Resources
 
 * [Issues](https://github.com/bpmn-io/bpmn-auto-layout/issues)
+
+
+
+## Run example (for BAs and SAs and other business people :) )
+1. Run in terminal commands below 
+    ```sh
+    git clone https://github.com/IvanTulaev/bpmn-auto-layout-feat-IvanTulaev.git
+    cd bpmn-auto-layout-feat-IvanTulaev
+    npm install
+    npm start
+    ```
+2. Browser will open tab at http://localhost:8080 or on another port if 8080 is busy.
+3. Upload your BPMN to the left side (**Left-bottom button "Open" **).
+4. Take the placed BPMN from the right side (**Right-bottom button "Download"**).
 
 ## Build and Run
 
@@ -60,7 +79,7 @@ npm run test:inspect
 npm run test:update-snapshots
 ```
 
-Add new test cases to [`test/fixtures`](./test/fixures) and they will be picked up automatically.
+Add new test cases to [`test/fixtures`](./test/fixtures) and they will be picked up automatically.
 
 ## License
 
