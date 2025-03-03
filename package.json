@@ -1,5 +1,5 @@
 {
-  "name": "bpmn-auto-layout",
+  "name": "bpmn-auto-layout-feat-ivan-tulaev",
   "version": "3.0.0-beta.2",
   "description": "Layout BPMN diagrams, generating missing DI information",
   "type": "module",
@@ -47,6 +47,7 @@
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-terser": "^0.4.4",
     "cross-env": "^7.0.3",
     "eslint": "^8.41.0",
     "eslint-plugin-bpmn-io": "^1.0.0",
