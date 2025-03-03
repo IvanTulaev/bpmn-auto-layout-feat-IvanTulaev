@@ -1,7 +1,5 @@
 # bpmn-auto-layout
 
-[![CI](https://github.com/bpmn-io/bpmn-auto-layout/actions/workflows/CI.yml/badge.svg)](https://github.com/bpmn-io/bpmn-auto-layout/actions/workflows/CI.yml)
-
 Create and layout the graphical representation of a BPMN diagram.
 
 ## Differences with original repository
@@ -83,4 +81,4 @@ Add new test cases to [`test/fixtures`](./test/fixtures) and they will be picked
 
 ## License
 
-MIT
+[MIT](./LICENSE)
