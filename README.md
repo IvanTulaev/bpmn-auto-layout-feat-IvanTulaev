@@ -13,7 +13,7 @@ Create and layout the graphical representation of a BPMN diagram.
 This library works with [Node.js](https://nodejs.org/) and in the browser.
 
 ```javascript
-import { layoutProcess } from 'bpmn-auto-layout';
+import { layoutProcess } from 'bpmn-auto-layout-feat-ivan-tulaev';
 
 import diagramXML from './diagram.bpmn';
 
@@ -33,7 +33,7 @@ console.log(diagramWithLayoutXML);
 
 ## Resources
 
-* [Issues](https://github.com/bpmn-io/bpmn-auto-layout/issues)
+* [Issues](https://github.com/IvanTulaev/bpmn-auto-layout-feat-IvanTulaev/issues)
 
 
 
