@@ -63,6 +63,9 @@
       <bpmndi:BPMNShape id="Participant_Process_0_di" bpmnElement="Participant_Process_0">
         <dc:Bounds x="0" y="0" width="900" height="280" />
       </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Participant_Process_1_di" bpmnElement="Participant_Process_1">
+        <dc:Bounds x="0" y="350" width="900" height="280" />
+      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_0_di" bpmnElement="Event_0">
         <dc:Bounds x="132" y="122" width="36" height="36" />
       </bpmndi:BPMNShape>
@@ -100,9 +103,6 @@
         <di:waypoint x="650" y="140" />
         <di:waypoint x="732" y="140" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="Participant_Process_1_di" bpmnElement="Participant_Process_1">
-        <dc:Bounds x="0" y="350" width="900" height="280" />
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_4_di" bpmnElement="Event_4">
         <dc:Bounds x="132" y="472" width="36" height="36" />
       </bpmndi:BPMNShape>
