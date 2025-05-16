@@ -43,6 +43,9 @@
       <bpmndi:BPMNShape id="Participant_0stcz4y_di" bpmnElement="Participant_0stcz4y">
         <dc:Bounds x="0" y="0" width="750" height="280" />
       </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Participant_0cbouyp_di" bpmnElement="Participant_0cbouyp">
+        <dc:Bounds x="0" y="350" width="600" height="280" />
+      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_1pac7ui_di" bpmnElement="Event_1pac7ui">
         <dc:Bounds x="132" y="122" width="36" height="36" />
       </bpmndi:BPMNShape>
@@ -67,9 +70,6 @@
         <di:waypoint x="500" y="140" />
         <di:waypoint x="582" y="140" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="Participant_0cbouyp_di" bpmnElement="Participant_0cbouyp">
-        <dc:Bounds x="0" y="350" width="600" height="280" />
-      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_0n2btuf_di" bpmnElement="Event_0n2btuf">
         <dc:Bounds x="132" y="472" width="36" height="36" />
       </bpmndi:BPMNShape>
