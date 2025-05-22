@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_0h4fop7" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.35.0" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.22.0">
+  <bpmn:collaboration id="Collaboration_1002m7p">
+    <bpmn:participant id="Participant_12qtii3" processRef="Process_0emkz0n" />
+  </bpmn:collaboration>
+  <bpmn:process id="Process_0emkz0n" isExecutable="false" />
+  <bpmndi:BPMNDiagram id="BPMNDiagram_Collaboration_1002m7p">
+    <bpmndi:BPMNPlane id="BPMNPlane_Collaboration_1002m7p" bpmnElement="Collaboration_1002m7p">
+      <bpmndi:BPMNShape id="Participant_12qtii3_di" bpmnElement="Participant_12qtii3">
+        <dc:Bounds x="0" y="0" width="400" height="100" />
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
