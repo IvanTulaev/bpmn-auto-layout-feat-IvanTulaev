@@ -5,6 +5,7 @@ Create and layout the graphical representation of a BPMN diagram.
 ## Differences with original repository
 
 * Given a collaboration **ALL** participant's process will be laid out.
+* **Collapsed** and **expanded sub-processes** has different layout.
 * Independent graphs of process are laid out on different grid lines.
 * Happy path not very happy, but large process graphs are more understandable for humans :)
 
@@ -24,7 +25,6 @@ console.log(diagramWithLayoutXML);
 
 ## Limitations
 
-* Sub-processes will be laid out as collapsed sub-processes
 * The following elements are not laid out:
   * Groups
   * Text annotations
