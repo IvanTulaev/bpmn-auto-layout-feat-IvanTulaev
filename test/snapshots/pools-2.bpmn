@@ -1571,23 +1571,19 @@
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge bpmnElement="Flow_0">
         <di:waypoint x="3900" y="578" />
-        <di:waypoint x="3900" y="2730" />
-        <di:waypoint x="2268" y="2730" />
+        <di:waypoint x="2250" y="2712" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge bpmnElement="Flow_1">
-        <di:waypoint x="3882" y="840" />
-        <di:waypoint x="1200" y="840" />
-        <di:waypoint x="1200" y="2048" />
+        <di:waypoint x="3900" y="858" />
+        <di:waypoint x="1200" y="2012" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge bpmnElement="Flow_2">
-        <di:waypoint x="2532" y="2870" />
-        <di:waypoint x="150" y="2870" />
-        <di:waypoint x="150" y="3658" />
+        <di:waypoint x="2550" y="2888" />
+        <di:waypoint x="150" y="3622" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge bpmnElement="Flow_3">
-        <di:waypoint x="4800" y="3518" />
-        <di:waypoint x="4800" y="280" />
-        <di:waypoint x="168" y="280" />
+        <di:waypoint x="4800" y="3482" />
+        <di:waypoint x="150" y="298" />
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>

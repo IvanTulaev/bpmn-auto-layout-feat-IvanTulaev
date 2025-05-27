@@ -303,12 +303,12 @@
         <di:waypoint x="600" y="1145" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge bpmnElement="Flow_0tn5l7p">
-        <di:waypoint x="882" y="280" />
-        <di:waypoint x="168" y="770" />
+        <di:waypoint x="900" y="298" />
+        <di:waypoint x="150" y="752" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge bpmnElement="Flow_1vkou0t">
-        <di:waypoint x="882" y="770" />
-        <di:waypoint x="168" y="1260" />
+        <di:waypoint x="900" y="788" />
+        <di:waypoint x="150" y="1242" />
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>

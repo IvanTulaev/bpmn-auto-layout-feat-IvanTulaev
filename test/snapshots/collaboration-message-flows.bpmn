@@ -88,8 +88,8 @@
         <di:waypoint x="432" y="490" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge bpmnElement="Flow_0y9bbj6">
-        <di:waypoint x="582" y="140" />
-        <di:waypoint x="168" y="490" />
+        <di:waypoint x="600" y="158" />
+        <di:waypoint x="150" y="472" />
       </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
