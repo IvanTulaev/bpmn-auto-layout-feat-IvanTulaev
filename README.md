@@ -28,8 +28,7 @@ console.log(diagramWithLayoutXML);
 * The following elements are not laid out:
   * Groups
   * Text annotations
-  * Associations
-  * Message flows laid out with main elements crosses 
+  * Associations 
 
 ## Resources
 
