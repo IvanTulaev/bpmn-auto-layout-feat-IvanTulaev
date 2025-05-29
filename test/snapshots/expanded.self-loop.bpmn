@@ -19,33 +19,33 @@
   <bpmndi:BPMNDiagram id="BPMNDiagram_Process_0vaccff">
     <bpmndi:BPMNPlane id="BPMNPlane_Process_0vaccff" bpmnElement="Process_0vaccff">
       <bpmndi:BPMNShape id="Activity_13uv42f_di" bpmnElement="Activity_13uv42f" isExpanded="true">
-        <dc:Bounds x="25" y="30" width="400" height="360" />
+        <dc:Bounds x="25" y="30" width="250" height="220" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_1u53pwc_di" bpmnElement="Activity_1u53pwc" isExpanded="true">
-        <dc:Bounds x="25" y="450" width="400" height="360" />
+        <dc:Bounds x="25" y="310" width="250" height="220" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_10irqhg_di" bpmnElement="Event_10irqhg">
-        <dc:Bounds x="207" y="792" width="36" height="36" />
+        <dc:Bounds x="132" y="512" width="36" height="36" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNEdge id="Flow_10z8wz4_di" bpmnElement="Flow_10z8wz4">
-        <di:waypoint x="225" y="390" />
-        <di:waypoint x="225" y="420" />
-        <di:waypoint x="0" y="420" />
-        <di:waypoint x="0" y="210" />
-        <di:waypoint x="25" y="210" />
+        <di:waypoint x="150" y="250" />
+        <di:waypoint x="150" y="280" />
+        <di:waypoint x="0" y="280" />
+        <di:waypoint x="0" y="140" />
+        <di:waypoint x="25" y="140" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_0y61mnc_di" bpmnElement="Flow_0y61mnc">
-        <di:waypoint x="225" y="828" />
-        <di:waypoint x="225" y="840" />
-        <di:waypoint x="0" y="840" />
-        <di:waypoint x="0" y="630" />
-        <di:waypoint x="25" y="630" />
+        <di:waypoint x="150" y="548" />
+        <di:waypoint x="150" y="560" />
+        <di:waypoint x="0" y="560" />
+        <di:waypoint x="0" y="420" />
+        <di:waypoint x="25" y="420" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="Event_1wk1li1_di" bpmnElement="Event_1wk1li1">
-        <dc:Bounds x="207" y="192" width="36" height="36" />
+        <dc:Bounds x="132" y="122" width="36" height="36" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Event_0dp2hnq_di" bpmnElement="Event_0dp2hnq">
-        <dc:Bounds x="207" y="612" width="36" height="36" />
+        <dc:Bounds x="132" y="402" width="36" height="36" />
       </bpmndi:BPMNShape>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
