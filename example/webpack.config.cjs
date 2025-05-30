@@ -1,5 +1,3 @@
-/* eslint-env node */
-
 const path = require('path');
 
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
@@ -12,7 +10,8 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, './dist'),
-    filename: '[name].bundle.js',
+    filename: '[name].js',
+    clean: true,
   },
   module: {
     rules: [
