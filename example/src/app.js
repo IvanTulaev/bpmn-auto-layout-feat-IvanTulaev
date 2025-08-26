@@ -18,6 +18,9 @@ import diagram from './diagram.bpmn';
 
 let fileName = 'diagram.bpmn';
 
+let debugStepsCounter = 0;
+let isDebuggerOn = false;
+
 const modeler = new Modeler({
   container: '#modeler',
   keyboard: {
@@ -30,9 +33,10 @@ const viewer = new Viewer({
 });
 
 const update = async () => {
+  console.log(debugStepsCounter);
   const { xml } = await modeler.saveXML({ format: true });
 
-  const xmlWithLayout = await layoutProcess(xml);
+  const xmlWithLayout = await layoutProcess(xml, isDebuggerOn ? debugStepsCounter : undefined);
 
   viewer
     .importXML(xmlWithLayout)
@@ -113,3 +117,44 @@ document.querySelector('#download-modeler').addEventListener('click', () => down
 document.querySelector('#download-viewer').addEventListener('click', () => downloadDiagram(viewer));
 
 openDiagram(diagram);
+
+
+
+const plusElement = document.querySelector('.plus');
+const minusElement = document.querySelector('.minus');
+plusElement.style.display = 'none';
+minusElement.style.display = 'none';
+plusElement.addEventListener('click', () => {
+  debugStepsCounter += 1;
+  update();
+});
+minusElement.addEventListener('click', () => {
+  if (debugStepsCounter > 0) {
+    debugStepsCounter -= 1;
+  }
+  update();
+});
+
+const debuggerSwitch = document.querySelector('.switch');
+debuggerSwitch.setAttribute('aria-checked', isDebuggerOn);
+debuggerSwitch.addEventListener('click', handleClickEvent, false);
+
+function handleClickEvent(evt) {
+  const el = evt.target;
+
+  if (isDebuggerOn) {
+    isDebuggerOn = false;
+    plusElement.style.display = 'none';
+    minusElement.style.display = 'none';
+    update();
+
+  } else {
+    isDebuggerOn = true;
+    plusElement.style.display = null;
+    minusElement.style.display = null;
+    debugStepsCounter = 0;
+    update();
+  }
+  el.setAttribute('aria-checked', isDebuggerOn);
+
+}

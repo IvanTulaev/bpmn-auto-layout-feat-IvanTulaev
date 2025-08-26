@@ -9,6 +9,13 @@
 
   <body>
     <div class="links top-links">
+      <button class="minus">-</button>
+      <button class="plus">+</button>
+      <button role="switch" id="debugger" class="switch">
+        <span>off</span>
+        <span>on</span>
+      </button>
+      <label for="debugger" class="switch">Debugger</label>
       <a
         href="https://github.com/IvanTulaev/bpmn-auto-layout-feat-IvanTulaev"
         class="link"
@@ -16,11 +23,15 @@
         rel="noopener"
       >View on GitHub</a>
     </div>
-    <div id="modeler">
-      <h2>Input Diagram</h2>
-    </div>
-    <div id="viewer">
-      <h2>Layouted Diagram</h2>
+    <div class="container">
+      <div class="viewer-container">
+        <h2>Input Diagram</h2>
+        <div id="modeler"></div>
+      </div>
+      <div class="viewer-container">
+        <h2>Layouted Diagram</h2>
+        <div id="viewer"></div>
+      </div>
     </div>
     <div class="links bottom-links bottom-links-modeler">
       <button class="link" id="file-open">Open</button>

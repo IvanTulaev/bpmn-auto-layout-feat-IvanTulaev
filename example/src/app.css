@@ -9,12 +9,7 @@ body {
 }
 
 h2 {
-  position: absolute;
-  left: 50%;
   text-align: center;
-  z-index: 1;
-  transform: translateX(-50%);
-  margin: 20px auto;
 }
 
 body {
@@ -121,4 +116,45 @@ a.link:hover {
 
   display: table-cell;
   vertical-align: middle;
+}
+
+/*switch*/
+button.switch {
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+button.switch span {
+  padding: 0 4px;
+  pointer-events: none;
+}
+
+[role="switch"][aria-checked="false"] :first-child{
+  background: #226622;
+  color: #eeeeff;
+}
+
+[role="switch"][aria-checked="true"] :last-child {
+  background: #a60c0c;
+  color: #eeeeff;
+}
+
+label.switch {
+  vertical-align: middle;
+  user-select: none;
+}
+
+.container{
+  display: flex;
+  width: 100%;
+}
+
+.viewer-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
