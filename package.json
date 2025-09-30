@@ -40,7 +40,7 @@
   "bugs": {
     "url": "https://github.com/IvanTulaev/bpmn-auto-layout-feat-IvanTulaev/issues"
   },
-  "homepage": "https://github.com/IvanTulaev/bpmn-auto-layout-feat-IvanTulaev#readme",
+  "homepage": "https://boosty.to/tulaev",
   "dependencies": {
     "bpmn-moddle": "^9.0.1",
     "graph-by-ivan-tulaev": "^1.0.0-alpha.2",
