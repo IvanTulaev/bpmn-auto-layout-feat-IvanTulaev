@@ -2,7 +2,7 @@
 
 Create and layout the graphical representation of a BPMN diagram.
 
-## [DEMO](http://tulaev-ivan.ru)
+## [DEMO](https://ivantulaev.github.io/bpmn-auto-layout-feat-IvanTulaev/)
 
 ## Differences with original repository
 
