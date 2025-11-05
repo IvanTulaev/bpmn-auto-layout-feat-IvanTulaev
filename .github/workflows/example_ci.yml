@@ -1,0 +1,31 @@
+name: Example_CI
+on: [ push, pull_request ]
+jobs:
+  Build:
+    strategy:
+      matrix:
+        os: [ ubuntu-latest ]
+        node-version: [ 20 ]
+
+    runs-on: ${{ matrix.os }}
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Use Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+    - name: Install dependencies
+      run: npm ci
+    - name: Build
+      run: npm run all
+    - name: Build example
+      run: npm run build:example
+    - name: Update example
+      if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+      env:
+        GIT_USER_NAME: ${{secrets.BPMN_IO_USER_NAME}}
+        GIT_USER_EMAIL: ${{secrets.BPMN_IO_EMAIL}}
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      run: tasks/update-example
