@@ -1,3 +1,8 @@
+[!WARNING]
+# This is an archived library.
+## New functionality will be implemented in 
+## [YABAL - Yet Another BPMN Auto Layout](https://github.com/IvanTulaev/yet-another-bpmn-auto-layout)
+
 # bpmn-auto-layout-feat-ivan-tulaev
 
 Create and layout the graphical representation of a BPMN diagram.
